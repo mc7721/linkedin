@@ -1,0 +1,234 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "LinkedIn",
+        "description": "Bring user profiles and professional networks to your apps.",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpsapi.linkedin.com\/v1"
+    ],
+    "paths": {
+        "\/companies\/{id}\/updates\/key={update-key}\/update-comments-as-company\/": {
+            "post": {
+                "summary": "Add Companies Updates Key Update Key Update Comments As Company",
+                "description": "Post companies  updates key update key update comments as company",
+                "operationId": "PostCompaniesUpdatesKeyUpdateKeyUpdateCommentsAsCompany",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/people\/~": {
+            "get": {
+                "summary": "Get People",
+                "description": "Get people ~",
+                "operationId": "GetPeople~",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "The message format"
+                    }
+                ]
+            }
+        },
+        "\/people\/shares": {
+            "post": {
+                "summary": "Add People ~ Shares",
+                "description": "Post people ~ shares",
+                "operationId": "PostPeople~Shares",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": "The content type."
+                    },
+                    {
+                        "name": "x",
+                        "in": "header",
+                        "description": "The content type."
+                    },
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "The message format"
+                    }
+                ]
+            }
+        },
+        "\/companies\/{id}\/is-company-share-enabled": {
+            "get": {
+                "summary": "Get Companies Is Company Share Enabled",
+                "description": "Get companies  is company share enabled",
+                "operationId": "GetCompaniesIsCompanyShareEnabled",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/companies\/{id}\/relation-to-viewer\/is-company-share-enabled": {
+            "get": {
+                "summary": "Get Companies Relation To Viewer Is Company Share Enabled",
+                "description": "Get companies  relation to viewer is company share enabled",
+                "operationId": "GetCompaniesRelationToViewerIsCompanyShareEnabled",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/companies\/": {
+            "get": {
+                "summary": "Get Companies",
+                "description": "Get companies",
+                "operationId": "GetCompanies",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/companies\/{id}": {
+            "get": {
+                "summary": "Get Companies",
+                "description": "Get companies",
+                "operationId": "GetCompanies",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "The message format"
+                    }
+                ]
+            }
+        },
+        "\/companies\/{id}:(id,name,ticker,description)": {
+            "get": {
+                "summary": "Get Companies (,name,ticker,description)",
+                "description": "Get companies  (,name,ticker,description)",
+                "operationId": "GetCompanies(,name,ticker,description)",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/companies\/{id}\/updates": {
+            "get": {
+                "summary": "Get Companies Updates",
+                "description": "Get companies  updates",
+                "operationId": "GetCompaniesUpdates",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "The message format"
+                    }
+                ]
+            }
+        },
+        "\/companies\/{id}\/updates\/key={update-key}": {
+            "get": {
+                "summary": "Get Companies Updates Key Update Key",
+                "description": "Get companies  updates key update key",
+                "operationId": "GetCompaniesUpdatesKeyUpdateKey",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/companies\/{id}\/updates\/key={update-key}\/update-comments": {
+            "get": {
+                "summary": "Get Companies Updates Key Update Key Update Comments",
+                "description": "Get companies  updates key update key update comments",
+                "operationId": "GetCompaniesUpdatesKeyUpdateKeyUpdateComments",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/companies\/{id}\/updates\/key={update-key}\/likes": {
+            "get": {
+                "summary": "Get Companies Updates Key Update Key Likes",
+                "description": "Get companies  updates key update key likes",
+                "operationId": "GetCompaniesUpdatesKeyUpdateKeyLikes",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/companies\/{id}\/shares": {
+            "post": {
+                "summary": "Add Companies Shares",
+                "description": "Post companies  shares",
+                "operationId": "PostCompaniesShares",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "The message format"
+                    }
+                ]
+            }
+        },
+        "\/companies\/{id}\/num-followers": {
+            "get": {
+                "summary": "Get Companies Num Followers",
+                "description": "Get companies  num followers",
+                "operationId": "GetCompaniesNumFollowers",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "The message format"
+                    }
+                ]
+            }
+        },
+        "\/companies\/{id}\/historical-follow-statistics": {
+            "get": {
+                "summary": "Get Companies Historical Follow Statistics",
+                "description": "Get companies  historical follow statistics",
+                "operationId": "GetCompaniesHistoricalFollowStatistics",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "The message format"
+                    }
+                ]
+            }
+        },
+        "\/companies\/{id}\/historical-status-update-statistics": {
+            "get": {
+                "summary": "Get Companies Historical Status Update Statistics",
+                "description": "Get companies  historical status update statistics",
+                "operationId": "GetCompaniesHistoricalStatusUpdateStatistics",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "The message format"
+                    }
+                ]
+            }
+        },
+        "\/companies\/{id}\/company-statistics": {
+            "get": {
+                "summary": "Get Companies Company Statistics",
+                "description": "Get companies  company statistics",
+                "operationId": "GetCompaniesCompanyStatistics",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "The message format"
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
