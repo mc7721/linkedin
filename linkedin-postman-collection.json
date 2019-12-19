@@ -1,0 +1,490 @@
+{
+    "id": "b29982fefec928ee1179a5d0b3fb6de3",
+    "name": "LinkedIn",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "9d969ea4f7448c93c2b631ddb75bb220",
+            "name": "Add Companies Updates Key Update Key Update Comments As Company",
+            "url": "httpsapi.linkedin.com\/v1\/companies\/{id}\/updates\/key={update-key}\/update-comments-as-company\/",
+            "description": "Post companies  updates key update key update comments as company",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b29982fefec928ee1179a5d0b3fb6de3",
+            "rawModeData": ""
+        },
+        {
+            "id": "160ab2943b5e1f5668479cb4e662132e",
+            "name": "Get People",
+            "url": "httpsapi.linkedin.com\/v1\/people\/~",
+            "description": "Get people ~",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "format",
+                    "description": "The message format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b29982fefec928ee1179a5d0b3fb6de3",
+            "rawModeData": ""
+        },
+        {
+            "id": "d8660e8ba9b7c3323a781e15bfdc5332",
+            "name": "Add People ~ Shares",
+            "url": "httpsapi.linkedin.com\/v1\/people\/shares",
+            "description": "Post people ~ shares",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Content",
+                    "description": "The content type.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "x",
+                    "description": "The content type.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "The message format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b29982fefec928ee1179a5d0b3fb6de3",
+            "rawModeData": ""
+        },
+        {
+            "id": "cca166750b8f006d7dadf652733ccb77",
+            "name": "Get Companies Is Company Share Enabled",
+            "url": "httpsapi.linkedin.com\/v1\/companies\/{id}\/is-company-share-enabled",
+            "description": "Get companies  is company share enabled",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b29982fefec928ee1179a5d0b3fb6de3",
+            "rawModeData": ""
+        },
+        {
+            "id": "6db9d1221f5b656f4f6894f4a4e0d2d5",
+            "name": "Get Companies Relation To Viewer Is Company Share Enabled",
+            "url": "httpsapi.linkedin.com\/v1\/companies\/{id}\/relation-to-viewer\/is-company-share-enabled",
+            "description": "Get companies  relation to viewer is company share enabled",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b29982fefec928ee1179a5d0b3fb6de3",
+            "rawModeData": ""
+        },
+        {
+            "id": "deb76204a90261b19590d0bb5e862712",
+            "name": "Get Companies",
+            "url": "httpsapi.linkedin.com\/v1\/companies\/",
+            "description": "Get companies",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b29982fefec928ee1179a5d0b3fb6de3",
+            "rawModeData": ""
+        },
+        {
+            "id": "586ba3c88900827b409f78f4cf8516ad",
+            "name": "Get Companies",
+            "url": "httpsapi.linkedin.com\/v1\/companies\/{id}",
+            "description": "Get companies",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "format",
+                    "description": "The message format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b29982fefec928ee1179a5d0b3fb6de3",
+            "rawModeData": ""
+        },
+        {
+            "id": "810e73a08b1f004320458fda9f786b8e",
+            "name": "Get Companies (,name,ticker,description)",
+            "url": "httpsapi.linkedin.com\/v1\/companies\/{id}:(id,name,ticker,description)",
+            "description": "Get companies  (,name,ticker,description)",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b29982fefec928ee1179a5d0b3fb6de3",
+            "rawModeData": ""
+        },
+        {
+            "id": "c6a009e0c49d5f526627e1b6afe37120",
+            "name": "Get Companies Updates",
+            "url": "httpsapi.linkedin.com\/v1\/companies\/{id}\/updates",
+            "description": "Get companies  updates",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "format",
+                    "description": "The message format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b29982fefec928ee1179a5d0b3fb6de3",
+            "rawModeData": ""
+        },
+        {
+            "id": "5930fb28782f447d1f744fae782dbe54",
+            "name": "Get Companies Updates Key Update Key",
+            "url": "httpsapi.linkedin.com\/v1\/companies\/{id}\/updates\/key={update-key}",
+            "description": "Get companies  updates key update key",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b29982fefec928ee1179a5d0b3fb6de3",
+            "rawModeData": ""
+        },
+        {
+            "id": "a889523649458a4b3ed765badbb02b9c",
+            "name": "Get Companies Updates Key Update Key Update Comments",
+            "url": "httpsapi.linkedin.com\/v1\/companies\/{id}\/updates\/key={update-key}\/update-comments",
+            "description": "Get companies  updates key update key update comments",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b29982fefec928ee1179a5d0b3fb6de3",
+            "rawModeData": ""
+        },
+        {
+            "id": "1d36c142c4ff7e0ac5e8a6bccc96187d",
+            "name": "Get Companies Updates Key Update Key Likes",
+            "url": "httpsapi.linkedin.com\/v1\/companies\/{id}\/updates\/key={update-key}\/likes",
+            "description": "Get companies  updates key update key likes",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b29982fefec928ee1179a5d0b3fb6de3",
+            "rawModeData": ""
+        },
+        {
+            "id": "30a8cddc3b7e38973019d7a41c186de1",
+            "name": "Add Companies Shares",
+            "url": "httpsapi.linkedin.com\/v1\/companies\/{id}\/shares",
+            "description": "Post companies  shares",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "format",
+                    "description": "The message format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b29982fefec928ee1179a5d0b3fb6de3",
+            "rawModeData": ""
+        },
+        {
+            "id": "29e220a33c0957fce5137378435aaaf0",
+            "name": "Get Companies Num Followers",
+            "url": "httpsapi.linkedin.com\/v1\/companies\/{id}\/num-followers",
+            "description": "Get companies  num followers",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "format",
+                    "description": "The message format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b29982fefec928ee1179a5d0b3fb6de3",
+            "rawModeData": ""
+        },
+        {
+            "id": "4dd6b2ca4d1726f017e43dd66b31ca7b",
+            "name": "Get Companies Historical Follow Statistics",
+            "url": "httpsapi.linkedin.com\/v1\/companies\/{id}\/historical-follow-statistics",
+            "description": "Get companies  historical follow statistics",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "format",
+                    "description": "The message format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b29982fefec928ee1179a5d0b3fb6de3",
+            "rawModeData": ""
+        },
+        {
+            "id": "c2c41ae59485322ecc3bb0d4194e9732",
+            "name": "Get Companies Historical Status Update Statistics",
+            "url": "httpsapi.linkedin.com\/v1\/companies\/{id}\/historical-status-update-statistics",
+            "description": "Get companies  historical status update statistics",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "format",
+                    "description": "The message format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b29982fefec928ee1179a5d0b3fb6de3",
+            "rawModeData": ""
+        },
+        {
+            "id": "b5491ff03c2a1e7bc5c539e7011df215",
+            "name": "Get Companies Company Statistics",
+            "url": "httpsapi.linkedin.com\/v1\/companies\/{id}\/company-statistics",
+            "description": "Get companies  company statistics",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "format",
+                    "description": "The message format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b29982fefec928ee1179a5d0b3fb6de3",
+            "rawModeData": ""
+        }
+    ]
+}
