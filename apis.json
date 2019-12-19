@@ -1,0 +1,125 @@
+{
+    "name": "LinkedIn",
+    "description": "<p>DZone Software provides tools and processes to help customers accelerate productivity through agile learning and knowledge-centered collaboration.&nbsp;<\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/221-linkedin.jpg",
+    "tags": [
+        "api provider",
+        "api service provider",
+        "general data",
+        "have api",
+        "have swagger",
+        "pedestal",
+        "relative data",
+        "service api",
+        "social",
+        "social networks",
+        "streams"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/linkedin\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "LinkedIn",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/221-linkedin.jpg",
+            "humanURL": "http:\/\/linkedin.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/linkedin.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/linkedin-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Authentication",
+            "url": "https:\/\/developer.linkedin.com\/documents\/authentication"
+        },
+        {
+            "type": "Base",
+            "url": "https:\/\/api.linkedin.com"
+        },
+        {
+            "type": "Blog",
+            "url": "http:\/\/blog.linkedin.com"
+        },
+        {
+            "type": "Branding",
+            "url": "https:\/\/brand.linkedin.com\/policies"
+        },
+        {
+            "type": "Case Studies",
+            "url": "https:\/\/developer.linkedin.com\/showcase\/wordpress"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/linkedin"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "http:\/\/www.crunchbase.com\/company\/linkedin"
+        },
+        {
+            "type": "Developers",
+            "url": "https:\/\/developer.linkedin.com"
+        },
+        {
+            "type": "Forums",
+            "url": "https:\/\/developer.linkedin.com\/forum"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/linkedin"
+        },
+        {
+            "type": "JavaScript API",
+            "url": "https:\/\/developer.linkedin.com\/javascript"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/221-2019-09-03-23-19-23.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/221-2019-09-03-23-19-29.json"
+        },
+        {
+            "type": "Partners",
+            "url": "https:\/\/developer.linkedin.com\/partner-programs"
+        },
+        {
+            "type": "Privacy",
+            "url": "http:\/\/www.linkedin.com\/static?key=privacy_policy&trk=hb_ft_priv"
+        },
+        {
+            "type": "Stack Overflow",
+            "url": "http:\/\/stackoverflow.com\/questions\/tagged\/linkedin"
+        },
+        {
+            "type": "Terms Of Service",
+            "url": "https:\/\/developer.linkedin.com\/legal\/api-terms-of-use"
+        },
+        {
+            "type": "Transparency Report",
+            "url": "https:\/\/www.linkedin.com\/legal\/transparency"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/LinkedIn"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/linkedin.com"
+        }
+    ]
+}
