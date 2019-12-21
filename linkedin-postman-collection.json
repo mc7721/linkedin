@@ -1,5 +1,5 @@
 {
-    "id": "b29982fefec928ee1179a5d0b3fb6de3",
+    "id": "916640c8adf339150c535f50f5b0aabb",
     "name": "LinkedIn",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "9d969ea4f7448c93c2b631ddb75bb220",
+            "id": "b6077dbe74a75b3aa0e40a0b743507ed",
             "name": "Add Companies Updates Key Update Key Update Comments As Company",
             "url": "httpsapi.linkedin.com\/v1\/companies\/{id}\/updates\/key={update-key}\/update-comments-as-company\/",
             "description": "Post companies  updates key update key update comments as company",
@@ -29,11 +29,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b29982fefec928ee1179a5d0b3fb6de3",
+            "collectionId": "916640c8adf339150c535f50f5b0aabb",
             "rawModeData": ""
         },
         {
-            "id": "160ab2943b5e1f5668479cb4e662132e",
+            "id": "e5d2e6c8be7e94dfb668db623689ce05",
             "name": "Get People",
             "url": "httpsapi.linkedin.com\/v1\/people\/~",
             "description": "Get people ~",
@@ -60,11 +60,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b29982fefec928ee1179a5d0b3fb6de3",
+            "collectionId": "916640c8adf339150c535f50f5b0aabb",
             "rawModeData": ""
         },
         {
-            "id": "d8660e8ba9b7c3323a781e15bfdc5332",
+            "id": "e5e9772b4d77f6288bb77c431be8c2dc",
             "name": "Add People ~ Shares",
             "url": "httpsapi.linkedin.com\/v1\/people\/shares",
             "description": "Post people ~ shares",
@@ -105,11 +105,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b29982fefec928ee1179a5d0b3fb6de3",
+            "collectionId": "916640c8adf339150c535f50f5b0aabb",
             "rawModeData": ""
         },
         {
-            "id": "cca166750b8f006d7dadf652733ccb77",
+            "id": "1307c63f75c58821e4b72295aedffaab",
             "name": "Get Companies Is Company Share Enabled",
             "url": "httpsapi.linkedin.com\/v1\/companies\/{id}\/is-company-share-enabled",
             "description": "Get companies  is company share enabled",
@@ -128,11 +128,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b29982fefec928ee1179a5d0b3fb6de3",
+            "collectionId": "916640c8adf339150c535f50f5b0aabb",
             "rawModeData": ""
         },
         {
-            "id": "6db9d1221f5b656f4f6894f4a4e0d2d5",
+            "id": "467292eb49e02c09b975b39d6eb299ed",
             "name": "Get Companies Relation To Viewer Is Company Share Enabled",
             "url": "httpsapi.linkedin.com\/v1\/companies\/{id}\/relation-to-viewer\/is-company-share-enabled",
             "description": "Get companies  relation to viewer is company share enabled",
@@ -151,11 +151,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b29982fefec928ee1179a5d0b3fb6de3",
+            "collectionId": "916640c8adf339150c535f50f5b0aabb",
             "rawModeData": ""
         },
         {
-            "id": "deb76204a90261b19590d0bb5e862712",
+            "id": "a3523f9e5cc2856f987e51fc09cd0714",
             "name": "Get Companies",
             "url": "httpsapi.linkedin.com\/v1\/companies\/",
             "description": "Get companies",
@@ -174,11 +174,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b29982fefec928ee1179a5d0b3fb6de3",
+            "collectionId": "916640c8adf339150c535f50f5b0aabb",
             "rawModeData": ""
         },
         {
-            "id": "586ba3c88900827b409f78f4cf8516ad",
+            "id": "af801d0bf7452812436bb76034e3ffd2",
             "name": "Get Companies",
             "url": "httpsapi.linkedin.com\/v1\/companies\/{id}",
             "description": "Get companies",
@@ -205,11 +205,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b29982fefec928ee1179a5d0b3fb6de3",
+            "collectionId": "916640c8adf339150c535f50f5b0aabb",
             "rawModeData": ""
         },
         {
-            "id": "810e73a08b1f004320458fda9f786b8e",
+            "id": "baecfc7badeca8a1efa19cbb511cef11",
             "name": "Get Companies (,name,ticker,description)",
             "url": "httpsapi.linkedin.com\/v1\/companies\/{id}:(id,name,ticker,description)",
             "description": "Get companies  (,name,ticker,description)",
@@ -228,11 +228,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b29982fefec928ee1179a5d0b3fb6de3",
+            "collectionId": "916640c8adf339150c535f50f5b0aabb",
             "rawModeData": ""
         },
         {
-            "id": "c6a009e0c49d5f526627e1b6afe37120",
+            "id": "945ac7120b64a963902106714e804ceb",
             "name": "Get Companies Updates",
             "url": "httpsapi.linkedin.com\/v1\/companies\/{id}\/updates",
             "description": "Get companies  updates",
@@ -259,11 +259,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b29982fefec928ee1179a5d0b3fb6de3",
+            "collectionId": "916640c8adf339150c535f50f5b0aabb",
             "rawModeData": ""
         },
         {
-            "id": "5930fb28782f447d1f744fae782dbe54",
+            "id": "5a8cbdf67829611da8305f6befa57f77",
             "name": "Get Companies Updates Key Update Key",
             "url": "httpsapi.linkedin.com\/v1\/companies\/{id}\/updates\/key={update-key}",
             "description": "Get companies  updates key update key",
@@ -282,11 +282,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b29982fefec928ee1179a5d0b3fb6de3",
+            "collectionId": "916640c8adf339150c535f50f5b0aabb",
             "rawModeData": ""
         },
         {
-            "id": "a889523649458a4b3ed765badbb02b9c",
+            "id": "97ec1d5011ef3a19aaf54e7de34b833c",
             "name": "Get Companies Updates Key Update Key Update Comments",
             "url": "httpsapi.linkedin.com\/v1\/companies\/{id}\/updates\/key={update-key}\/update-comments",
             "description": "Get companies  updates key update key update comments",
@@ -305,11 +305,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b29982fefec928ee1179a5d0b3fb6de3",
+            "collectionId": "916640c8adf339150c535f50f5b0aabb",
             "rawModeData": ""
         },
         {
-            "id": "1d36c142c4ff7e0ac5e8a6bccc96187d",
+            "id": "e295cb1a0672321740c2f50bb909321a",
             "name": "Get Companies Updates Key Update Key Likes",
             "url": "httpsapi.linkedin.com\/v1\/companies\/{id}\/updates\/key={update-key}\/likes",
             "description": "Get companies  updates key update key likes",
@@ -328,11 +328,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b29982fefec928ee1179a5d0b3fb6de3",
+            "collectionId": "916640c8adf339150c535f50f5b0aabb",
             "rawModeData": ""
         },
         {
-            "id": "30a8cddc3b7e38973019d7a41c186de1",
+            "id": "c4f8e8d14bb5010be5fa0c508a15e07a",
             "name": "Add Companies Shares",
             "url": "httpsapi.linkedin.com\/v1\/companies\/{id}\/shares",
             "description": "Post companies  shares",
@@ -359,11 +359,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b29982fefec928ee1179a5d0b3fb6de3",
+            "collectionId": "916640c8adf339150c535f50f5b0aabb",
             "rawModeData": ""
         },
         {
-            "id": "29e220a33c0957fce5137378435aaaf0",
+            "id": "c77cf21b08548f57f0225ed044492912",
             "name": "Get Companies Num Followers",
             "url": "httpsapi.linkedin.com\/v1\/companies\/{id}\/num-followers",
             "description": "Get companies  num followers",
@@ -390,11 +390,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b29982fefec928ee1179a5d0b3fb6de3",
+            "collectionId": "916640c8adf339150c535f50f5b0aabb",
             "rawModeData": ""
         },
         {
-            "id": "4dd6b2ca4d1726f017e43dd66b31ca7b",
+            "id": "a5ca75d936a901dab6f6f5f15a529067",
             "name": "Get Companies Historical Follow Statistics",
             "url": "httpsapi.linkedin.com\/v1\/companies\/{id}\/historical-follow-statistics",
             "description": "Get companies  historical follow statistics",
@@ -421,11 +421,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b29982fefec928ee1179a5d0b3fb6de3",
+            "collectionId": "916640c8adf339150c535f50f5b0aabb",
             "rawModeData": ""
         },
         {
-            "id": "c2c41ae59485322ecc3bb0d4194e9732",
+            "id": "1740f8e9b2c6bcaf98b37003b25e89d1",
             "name": "Get Companies Historical Status Update Statistics",
             "url": "httpsapi.linkedin.com\/v1\/companies\/{id}\/historical-status-update-statistics",
             "description": "Get companies  historical status update statistics",
@@ -452,11 +452,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b29982fefec928ee1179a5d0b3fb6de3",
+            "collectionId": "916640c8adf339150c535f50f5b0aabb",
             "rawModeData": ""
         },
         {
-            "id": "b5491ff03c2a1e7bc5c539e7011df215",
+            "id": "3bc823e39bc1ec1366c89b284d715c42",
             "name": "Get Companies Company Statistics",
             "url": "httpsapi.linkedin.com\/v1\/companies\/{id}\/company-statistics",
             "description": "Get companies  company statistics",
@@ -483,7 +483,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b29982fefec928ee1179a5d0b3fb6de3",
+            "collectionId": "916640c8adf339150c535f50f5b0aabb",
             "rawModeData": ""
         }
     ]
